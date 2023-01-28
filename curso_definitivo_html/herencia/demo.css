@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.title{
+    color: chocolate;
+    font-family: monospace;
+
+    font-size: 18px;
+}
+
+.nav {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    list-style-type: none ;
+    padding-left: 0;
+}
+
+.nav li {
+    display: inline-block;
+}
+
+.nav a {
+    color: white;
+    background-color: blueviolet;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+/* con esta etiqueta se esta dando mayor grado de especifidad ya
+que contien 2 clse lo cual la sube respecto a la etiqueta .nav a */
+.nav .blog{
+    background-color: brown;
+}

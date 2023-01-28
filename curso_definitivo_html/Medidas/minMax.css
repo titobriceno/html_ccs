@@ -1,0 +1,30 @@
+/* etiqueta base para formatear el tamaño de las cajas */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* tomar el 100% de toda la pantalla */
+main {
+    width: 100vw;
+    height: 100vh;
+    background-color: darkmagenta;
+}
+
+/* estilo de una seccion con espacio minimo y maximo*/
+.seccion1 {
+    width: 300px;
+    min-width: 300px;
+    max-width: 400px;
+    height: 50%;
+    background-color: darkcyan;
+}
+
+/* estilo para caja con everflow de texto */
+.seccion2 {
+    width: 80%;
+    min-width: 320;
+    min-height: 200px;
+    background-color: darkgoldenrod;
+}

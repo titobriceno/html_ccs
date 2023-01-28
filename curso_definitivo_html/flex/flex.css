@@ -1,0 +1,51 @@
+/* quitar bordes, margin y pading */
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+/* reset para manejar medidas rem y em */
+html{
+    font-size: 100%;
+  }
+body{
+    font-size: 100%;
+  }
+  
+.container{
+    display: flex;
+    border: 1px black solid;
+    height: 20rem;
+    align-items: baseline;
+}
+
+.box{
+    /* height: 5rem; */
+    width: 5rem;
+    
+
+}
+.container__box--box1{
+    background-color: blueviolet;
+}
+
+.container__box--box2{
+    background-color: red;
+}
+
+.container__box--box3{
+    background-color: blue;
+}
+
+.container__box--box4{
+    background-color: green;
+}
+.container__box--box5{
+    background-color: yellow;
+}
+
+.container__box--box6{
+    background-color: gray;
+}

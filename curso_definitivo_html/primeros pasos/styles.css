@@ -1,0 +1,15 @@
+/* estilo por etiquera */
+p{
+    color: blue;
+    font-size: 40px;
+}
+/* estilo por clase */
+.claseEstilo {
+    color: aquamarine;
+}
+
+/* ID */
+#texto {
+    color: tan;
+    font-size: 35px;
+}

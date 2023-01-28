@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    padding: o;
+    margin: 0;
+}
+
+.navigationBar {
+    list-style: none;
+    background-color: yellow;
+    padding: 10px;
+}
+
+.navigationBar-bottons {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: black;
+}
+
+.navigationBar a {
+    text-decoration: none;
+}
+
+/* aplicacion de una psedoclase */
+.navigationBar a:hover{
+    color: red;
+}
+
+/* aplicacion de un pseudoelemeto   */
+
+.navigationBar a::after {
+    content: "|";
+}
+
+.navigationBar-logo {
+    height: 15px;
+    width: 15px;
+}

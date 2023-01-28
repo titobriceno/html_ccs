@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stykes_titoPage.css">
+</head>
+<body>
+    <header class="navigationBar">
+        <!-- creacion de nav bar, ul para listas desordenada, li para elemento de las lista -->
+        <nav class="navigationBar-elements">
+            <ul class="navigationBar-listElements">
+                <li class="navigationBar-listElements__li">main</li>
+                <li class="navigationBar-listElements__li">contacts</li>
+            </ul>
+            <h1 class="navigationBar-elements__tittle">Full stack develorper</h1>
+        </nav>
+
+    </header>
+    <main>
+        <!-- span labels is ; a container of text is useful to put style a text
+        not use h1 or h1 becasuse this is mo useful for google serch-->
+        <section>
+            <div>
+                <span>presentation</span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac erat enim. Integer consequat, ex a gravida ullamcorper, lectus ex commodo neque, in ultrices lectus enim ut tellus. Nunc maximus blandit augue. Nunc facilisis vel arcu a porttitor. Proin laoreet enim diam, eu venenatis arcu tincidunt in. Mauris eleifend dapibus accumsan. Suspendisse tellus nulla, hendrerit vitae mauris convallis, elementum vulputate tellus. Mauris ac velit nec risus mollis interdum. Nam ut porttitor erat, vel tempor risus. Nullam a odio diam. Suspendisse vel molestie libero. Aliquam vestibulum nunc id malesuada tempor. Aliquam posuere tellus odio, non venenatis metus malesuada sit amet. Phasellus.</p>
+            </div>
+            <div>
+                <span>studies</span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac erat enim. Integer consequat, ex a gravida ullamcorper, lectus ex commodo neque, in ultrices lectus enim ut tellus. Nunc maximus blandit augue. Nunc facilisis vel arcu a porttitor. Proin laoreet enim diam, eu venenatis arcu tincidunt in. Mauris eleifend dapibus accumsan. Suspendisse tellus nulla, hendrerit vitae mauris convallis, elementum vulputate tellus. Mauris ac velit nec risus mollis interdum. Nam ut porttitor erat, vel tempor risus. Nullam a odio diam. Suspendisse vel molestie libero. Aliquam vestibulum nunc id malesuada tempor. Aliquam posuere tellus odio, non venenatis metus malesuada sit amet. Phasellus.</p>
+            </div>
+            <div>
+                <span>projects</span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac erat enim. Integer consequat, ex a gravida ullamcorper, lectus ex commodo neque, in ultrices lectus enim ut tellus. Nunc maximus blandit augue. Nunc facilisis vel arcu a porttitor. Proin laoreet enim diam, eu venenatis arcu tincidunt in. Mauris eleifend dapibus accumsan. Suspendisse tellus nulla, hendrerit vitae mauris convallis, elementum vulputate tellus. Mauris ac velit nec risus mollis interdum. Nam ut porttitor erat, vel tempor risus. Nullam a odio diam. Suspendisse vel molestie libero. Aliquam vestibulum nunc id malesuada tempor. Aliquam posuere tellus odio, non venenatis metus malesuada sit amet. Phasellus.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <!-- contact section -->
+        <div>contacts</div>
+        <div> if need information abaut us, fill out this form </div>
+        <!-- this label use for create a form -->
+        <form action=""> 
+            <!-- label is a space for indicate that space are a specific part of the 
+            form -->
+            <label for="email">
+                <span>email</span>
+                <!-- input recibe a parameter type that indicate the type of the
+                    input, text is a box for text, name is for the name of the imput, id is an identifier 
+                    of the elemet -->
+                <input type="email" name="email_client" id = "email_client" placeholder="email" autocomplete="email">
+            </label>
+            <label for="name">
+                <span>name</span>
+                <input type="text" name="name_client" id="name_client" placeholder="name" autocomplete="given-name">
+            </label>
+            <label for="surname">
+                <span>surname</span>
+                <input type="text" name="surname_client" id="surname_client" placeholder="surname" autocomplete="family-name">
+            </label>
+            <label for="phone">
+                <span>phone number</span>
+                <input type="tel" name="phone_number" id="phone_number" placeholder="phone_nombre">
+            </label>
+            <label for="date_of_register">
+                <span>date of date_of_register</span>
+                <input type="date" name="date_of_register" id="date_of_register">
+            </label>
+        </form>
+
+    </footer>
+</body>
+</html>

@@ -1,0 +1,42 @@
+
+/* parte de un buen reset */
+.html{
+    font-size: 100%;
+}
+
+.body{
+    font-size: 100%;
+}
+
+.rem{
+    background-color: aquamarine;
+    padding: 1rem 2rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    font-size: 1rem;
+}
+
+/* .em{
+    background-color: aquamarine;
+    padding: 1em 2em;
+    margin: 1em;
+    border-radius: 1em;
+    font-size: 1em;
+} */
+
+.px{
+    background-color: aquamarine;
+    padding: 16px 32px;
+    margin: 16px;
+    border-radius: 16px;
+    font-size: 16px;
+}
+
+/* Mejor practica */
+.em{
+    background-color: aquamarine;
+    padding: 1rem 2rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    font-size: 1rem;
+}

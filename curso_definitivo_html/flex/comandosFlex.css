@@ -1,0 +1,16 @@
+.etiquetaFlex{
+    display: flex;
+
+}
+
+/* alinea los elementos a lo largo del eje pricipal */
+.jsutify_content{
+    justify-content: flex-start; /* esta viene por default */
+    justify-content: flex-end; /* pone todos los elementos al final  */
+    justify-content: space-between; /* los elementos tienen espacio entre ellos */
+    justify-content: space-around; /* los elementos tienen espacio antes, entre y despues de ellos*/
+    justify-content: space-evenly; /* los elementos tienen el mismo espacio alrededor de ellos */
+    justify-content: center; /* los elementos al centro */
+}
+
+/* Alienea los elementos a lo largo del eje tranversal.  */

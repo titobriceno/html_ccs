@@ -1,0 +1,36 @@
+.navigationBar {
+    background-color: yellow;
+    padding: 10px;
+}
+
+.navigationBar-elements{
+    display: flex;
+    align-items: center;
+}
+
+.navigationBar-listElements{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0%;
+    padding: 0%;
+}
+
+.navigationBar-listElements__li{
+    margin: 5px;
+    padding: 0%
+    ;
+}
+
+.navigationBar-listElements li:hover{
+    color: purple;
+}
+
+.navigationBar-listElements li::after{
+    content: "|";
+}
+
+.navigationBar-elements__tittle{
+    margin-left: auto;
+}
+
