@@ -1,0 +1,42 @@
+:root{
+    --primary-color: #003475;
+    --secundary-color: #b4d2f7;
+    --header-size: 1.25rem;
+    --font:  0.75rem;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.html{
+    font-size: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.body{
+    font-size: 100%;
+}
+
+.header{
+    width: 100vw;
+    height: 15vh;
+    background-color: var(--primary-color);
+}
+
+.contenido{
+    width: 100%;
+    height: 70%;
+}
+
+.contenido_h1{
+    font-size: var(--header-size);
+    color: var(--primary-color);
+}
+.contenido_p{
+    font-size: var(--font);
+}
+

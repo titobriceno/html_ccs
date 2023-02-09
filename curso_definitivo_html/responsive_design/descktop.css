@@ -1,0 +1,26 @@
+@media (min-width: 800px) {
+    /* en la etiqueta de container indicamos el tamaño maximo que alcanaza */
+    .container{
+        width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* por otro lado se encuetran los estilos que se estan aplicando */
+    .container_div--1 {
+            width: 60%;
+        }
+    
+    .container_div--2 {
+            width: 40%;
+        }
+    
+    .container_div--3,
+    .container_div--4 {
+            width: 33%
+        }
+    
+    .container_div--5 {
+            width: 34%;
+        }
+    }

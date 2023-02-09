@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.html{
+    font-size: 100%;
+}
+
+.body{
+    font-size: 100%;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+.header{
+    background-color: aqua;
+    height: 16px;
+    width: 100vw;
+}
+.header_data{
+    background-color: salmon;
+}
+.main{
+    background-color: yellow;
+    
+}
+.main_resena{
+    background-color: blue;
+    height: 48px;
+    width: 100vw;
+}
+.products{
+    background-color: blueviolet;
+
+}
+.products_list{
+    background-color: brown;
+}
+
+.products_desc{
+    background-color: blanchedalmond;
+}
+
+.product_desc--num{
+    height: 11rem;
+    width: 100vw;
+    background-color: aqua;
+}
+
+
+.footer{
+    background-color: forestgreen;
+}
+.footer_data{
+    background-color: azure;
+    height: 16px;
+    width: 100vw;
+}
+
+
+
+@media (min-width: 35rem) {
+
+
+    .products_list{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .products_desc{        
+        display: flex;
+        justify-content: space-around ;
+    }
+    
+    .product_desc--num{
+        
+        height: 11rem;
+        width: 11rem;
+    }
+
+
+}
+
+@media (min-width: 50rem) {
+    
+
+}

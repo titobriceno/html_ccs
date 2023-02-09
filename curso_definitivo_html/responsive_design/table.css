@@ -1,0 +1,8 @@
+@media (min-width: 600px) {
+
+    .container_div--2,
+    .container_div--3,
+    .container_div--4 {
+        width: 50%;
+    }
+}
