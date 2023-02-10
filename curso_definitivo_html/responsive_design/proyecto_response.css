@@ -1,3 +1,12 @@
+:root{
+    --common-font: 'Rajdhani', sans-serif;;
+    --font-sizes_document: .75rem;
+    --primary-color: #1A1A18;
+    --second-color: #BABAB9;
+    
+}
+/* reset of css document */
+
 *{
     padding: 0;
     margin: 0;
@@ -12,6 +21,8 @@
     font-size: 100%;
 }
 
+/* configurarion main container for flex page */
+
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -19,31 +30,69 @@
 
 }
 
-
+/* header section and menu */
 .header{
-    background-color: aqua;
-    height: 16px;
+    background-color: transparent;
+    height: 4rem;
     width: 100vw;
 }
 .header_data{
-    background-color: salmon;
+    background-color: transparent;
     width: 100vw;
+    height:  4rem;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 2px
 }
+
+.logo{
+    width: 12rem;
+    height: 2rem;
+    margin: 1rem;
+}
+
+.menu{
+    width: 2rem;
+    height: 2rem;
+    margin: 1rem;
+    
+}
+
 .main{
-    background-color: yellow;
+    background-color: transparent;
     
 }
 .main_resena{
-    background-color: blue;
-    height: 48px;
+    background-color: transparent;
+    height: auto;
     width: 100vw;
 }
+
+.main_resena--h1{
+    font-family: var(--common-font);
+    font-weight: 700;
+    text-align: center;
+}
+
+.main_resena--p{
+    font-family: var(--common-font);
+    font-weight: 400;
+    text-align: center;
+}
+
+/* product section styles */
+
 .products{
-    background-color: blueviolet;
+    background-color: transparent;
 
 }
 .products_list{
-    background-color: brown;
+    background-color: #BABAB9;
+}
+
+.products_list--name{
+    font-family: var(--common-font);
+    font-weight: 700;
 }
 
 .products_desc{
