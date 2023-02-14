@@ -1,7 +1,7 @@
 :root{
     --common-font: 'Rajdhani', sans-serif;;
     --font-sizes_document: .75rem;
-    --primary-color: #1A1A18;
+    --primary-color: black  ;
     --second-color: #BABAB9;
     
 }
@@ -123,17 +123,34 @@
 }
 
 .footer{
-    background-color: forestgreen;
+    background-color: transparent;
+    height: auto;   
 }
-.footer_data{
+.footer_data--text{
     background-color: azure;
-    height: 16px;
+    height: auto;
     width: 100vw;
+    font-family: var(--common-font);
+    font-size: 0.75em;
+    background-color: var(--primary-color);
+    color: var(--second-color);
+    display: flex;
+    text-align: center;
+    flex-direction: column;
 }
 
+.footer_data{
+    display: flex;
+    justify-content: center;
+}
+
+.footer_data--logos{
+    
+}
 
 
 @media (min-width: 35rem) {
+
 
 
     .products_list{
@@ -142,23 +159,51 @@
         flex-direction: column;
     }
 
+
+
     .products_desc{        
         display: flex;
         justify-content: space-around ;
+        background-color: white;
+        height: 13rem;
     }
     
+
     .product_desc--num{
         
-        height: 11rem;
-        width: 11rem;
+        height: 12rem;
+        width: 12rem;
+        display: flex;
+        flex-direction: column;
     }
 
 
 }
 
 @media (min-width: 50rem) {
+
+
     .container{
-        width: 50rem;
+        width: 60rem;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+
+    .header_data{
+        width: 60rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .main_resena{
+        width: 60rem;
+        margin-left: auto;
+        margin-right: auto; 
+    }
+
+    .main{
+        width: 60rem;
         margin-left: auto;
         margin-right: auto;
     }
@@ -172,6 +217,7 @@
     .products_desc{        
         display: flex;
         flex-direction: column;
+        height: auto;
 
     }
     
@@ -179,6 +225,12 @@
         
         height: 14rem;
         width: 14rem;
+    }
+
+    .footer_data--text{
+        width: 60rem;
+        margin-left: auto;
+        margin-right: auto;
     }
 
 }
